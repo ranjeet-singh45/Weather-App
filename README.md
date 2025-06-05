@@ -31,10 +31,26 @@ A simple weather application built with **React**, **Vite**, and the **OpenWeath
 ```bash
 git clone https://github.com/ranjeet-singh45/weather-app.git
 cd weather-app
+```
 
----
 
 2️⃣ **Install dependencies:**
 
 ```bash
 npm install
+```
+3️⃣ Add your API key:
+
+This app uses the OpenWeatherMap API. Sign up for free to get your API key:
+👉 https://openweathermap.org/api
+
+Replace the placeholder in your .env file:
+```
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+4️⃣ Run the development server:
+```
+npm run dev
+```
+Visit: http://localhost:5173
+
